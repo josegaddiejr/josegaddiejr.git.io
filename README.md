@@ -1,87 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jose Gaddie Jr. - Professional Contact</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f4;
-            color: #333;
-            margin: 0;
-            padding: 40px 20px;
-        }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #2c3e50;
-            margin-bottom: 5px;
-        }
-        h2 {
-            color: #7f8c8d;
-            font-size: 1.2em;
-            font-weight: normal;
-            margin-top: 0;
-        }
-        .contact-info {
-            margin: 25px 0;
-            line-height: 1.6;
-        }
-        .social-links {
-            margin-top: 30px;
-        }
-        .social-links a {
-            display: inline-block;
-            margin: 0 10px;
-            text-decoration: none;
-            color: #3498db;
-            font-weight: bold;
-        }
-        .social-links a:hover {
-            color: #2c3e50;
-        }
-        .qr-instruction {
-            margin-top: 40px;
-            font-size: 0.9em;
-            color: #95a5a6;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <!-- Profile Section -->
-        <h1>Jose Gaddie Jr.</h1>
-        <h2>Customer Service & Security Professional</h2>
+<!doctype html>
+</div>
+<div class="row" title="Email">
+<svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></svg>
+<span>Email:</span>
+<code>josegaddiejr@gmail.com</code>
+</div>
+<div class="row" title="Location">
+<svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.7 2 6 4.7 6 8c0 4.5 6 12 6 12s6-7.5 6-12c0-3.3-2.7-6-6-6Zm0 8.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 5.5 12 5.5s2.5 1.1 2.5 2.5S13.4 10.5 12 10.5Z"/></svg>
+<span>Location:</span>
+<code>Las Vegas, NV</code>
+</div>
+</div>
 
-        <img src="[LINK TO A PROFESSIONAL PHOTO OF YOU (OPTIONAL)]" alt="Professional Headshot of Jose Gaddie" width="150" style="border-radius: 50%; margin-top: 20px;">
 
-        <!-- Contact Information -->
-        <div class="contact-info">
-            <p><strong>Phone:</strong> <a href="tel:+17028121372">(702) 812-1372</a><br>
-            <strong>Email:</strong> <a href="mailto:josegaddiejr@gmail.com">josegaddiejr@gmail.com</a><br>
-            <strong>Location:</strong> Las Vegas, NV</p>
-        </div>
+<div class="pill" aria-label="Objective">
+<svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2Zm1 15-4-4 1.41-1.41L13 13.17l4.59-4.58L19 10Z"/></svg>
+Seeking remote roles in customer service, security, or client relations.
+</div>
+</section>
 
-        <p><em>Seeking opportunities in remote customer service, security, or client relations.</em></p>
 
-        <!-- Social Media Links -->
-        <div class="social-links">
-            <h3>Connect with me:</h3>
-            <a href="[YOUR LINKEDIN URL]" target="_blank">LinkedIn</a>
-            <a href="[YOUR FACEBOOK PROFILE URL]" target="_blank">Facebook</a>
-            <a href="[YOUR TWITTER URL]" target="_blank">Twitter/X</a>
-            <!-- Add more social links as needed -->
-        </div>
+<!-- Right column: social + QR -->
+<aside class="right" aria-label="Ways to connect (disabled)">
+<div class="section">
+<h3>Connect with me</h3>
+<div class="links">
+<!-- READ‑ONLY: links styled as chips, clicks disabled by CSS -->
+<a class="chip" href="#" aria-disabled="true" tabindex="-1">LinkedIn</a>
+<a class="chip" href="#" aria-disabled="true" tabindex="-1">Facebook</a>
+<a class="chip" href="#" aria-disabled="true" tabindex="-1">Twitter/X</a>
+</div>
+<p class="sub small">(Read‑only preview — links disabled)</p>
+</div>
 
-        <p class="qr-instruction">Scan the QR code to save my contact information.</p>
-    </div>
+
+<div class="section">
+<h3>Save my contact</h3>
+<div class="qr">
+<!-- Replace src with your generated QR image file path -->
+<img src="qr.png" alt="QR code for saving Jose's contact information" />
+<p class="sub">Scan the QR code to save my contact information.</p>
+</div>
+</div>
+</aside>
+</div>
+</article>
+<footer>© <span id="y"></span> Jose Gaddie Jr.</footer>
+</main>
+
+
+<script>
+// Decorative: update year automatically. Safe for read‑only view.
+document.getElementById('y').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
